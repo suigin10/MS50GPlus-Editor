@@ -1,0 +1,26 @@
+name: Bug report / 不具合報告
+description: Report a problem with MS50GPlus-Editor / 不具合を報告する
+body:
+  - type: input
+    id: versions
+    attributes:
+      label: Versions / 使用環境
+      description: App version, MS-50G+ firmware and Windows version / アプリ・本体FW・Windowsのバージョン
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / 再現手順
+      description: What did you do, and what happened? / 操作手順と発生した現象
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior / 期待する動作
+  - type: textarea
+    id: error
+    attributes:
+      label: Error or screenshot / エラー・画面
+      description: Remove personal notes and paths before attaching files. / 個人のメモやパスを含めないでください。

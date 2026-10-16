@@ -1,0 +1,788 @@
+{
+  "01000010": {
+    "filename": "COMP.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "01000020": {
+    "filename": "RACKCOMP.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "01000030": {
+    "filename": "GRAYCOMP.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "01000040": {
+    "filename": "OPTCOMP.ZD2",
+    "addedAfterLaunch": true,
+    "release": "2024-11",
+    "utility": false
+  },
+  "01000050": {
+    "filename": "BLACKOPT.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "01000060": {
+    "filename": "LMT1176.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "01000070": {
+    "filename": "ZNR.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "01000080": {
+    "filename": "N_GATE.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "01000090": {
+    "filename": "SLWATK.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "010000a0": {
+    "filename": "MUTESW.ZD2",
+    "addedAfterLaunch": true,
+    "release": "2024-11",
+    "utility": false
+  },
+  "02000010": {
+    "filename": "AUTOWAH.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "02000020": {
+    "filename": "RESONANC.ZD2",
+    "addedAfterLaunch": true,
+    "release": "2024-11",
+    "utility": false
+  },
+  "02000030": {
+    "filename": "LOWPASSF.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "02000040": {
+    "filename": "CRY.ZD2",
+    "addedAfterLaunch": true,
+    "release": "2024-11",
+    "utility": false
+  },
+  "02000050": {
+    "filename": "EGFLTR1U.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "02000060": {
+    "filename": "LFO_FLTR.ZD2",
+    "addedAfterLaunch": true,
+    "release": "2024-11",
+    "utility": false
+  },
+  "02000070": {
+    "filename": "SEQFLTR.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "02000080": {
+    "filename": "RNDMFLTR.ZD2",
+    "addedAfterLaunch": true,
+    "release": "2024-11",
+    "utility": false
+  },
+  "02000090": {
+    "filename": "STEP5G.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "020000a0": {
+    "filename": "GT_GEQ1U.ZD2",
+    "addedAfterLaunch": true,
+    "release": "2024-11",
+    "utility": false
+  },
+  "020000b0": {
+    "filename": "GTGEQ75G.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "020000c0": {
+    "filename": "STGTGE1U.ZD2",
+    "addedAfterLaunch": true,
+    "release": "2024-11",
+    "utility": false
+  },
+  "020000c8": {
+    "filename": "STGTGE7.ZD2",
+    "addedAfterLaunch": true,
+    "release": "2026-06",
+    "utility": false
+  },
+  "020000d0": {
+    "filename": "PARAEQ5G.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "020000e0": {
+    "filename": "EXCITER.ZD2",
+    "addedAfterLaunch": true,
+    "release": "2024-11",
+    "utility": false
+  },
+  "020000f0": {
+    "filename": "LOW_EQ.ZD2",
+    "addedAfterLaunch": true,
+    "release": "2024-11",
+    "utility": false
+  },
+  "02000100": {
+    "filename": "HIGH_EQ.ZD2",
+    "addedAfterLaunch": true,
+    "release": "2024-11",
+    "utility": false
+  },
+  "03000010": {
+    "filename": "EPSTMP5G.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "03000020": {
+    "filename": "RCBST5G.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "03000030": {
+    "filename": "TS_DRIVE.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "03000040": {
+    "filename": "GOLD_DRV.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "03000050": {
+    "filename": "SWEETDRV.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "03000058": {
+    "filename": "OVRDRV.ZD2",
+    "addedAfterLaunch": true,
+    "release": "2025-12",
+    "utility": false
+  },
+  "03000060": {
+    "filename": "ZEN_DRV.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "03000070": {
+    "filename": "BG_GRID.ZD2",
+    "addedAfterLaunch": true,
+    "release": "2024-11",
+    "utility": false
+  },
+  "03000080": {
+    "filename": "DYNDRIVE.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "03000090": {
+    "filename": "DISTPL5G.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "030000a0": {
+    "filename": "DIST1_5G.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "030000b0": {
+    "filename": "SQUEAK5G.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "030000c0": {
+    "filename": "REDCR5G.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "030000d0": {
+    "filename": "VIOLTD5G.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "030000e0": {
+    "filename": "TB_MK15.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "030000f0": {
+    "filename": "OCTFUZZ.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "03000100": {
+    "filename": "NYC_MUFF.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "03000110": {
+    "filename": "WAVSHPR.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "03000120": {
+    "filename": "RAZORDRV.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "03000130": {
+    "filename": "MTLWRLD.ZD2",
+    "addedAfterLaunch": true,
+    "release": "2024-11",
+    "utility": false
+  },
+  "03000140": {
+    "filename": "BGTHRTTL.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "03000150": {
+    "filename": "TS_BST1U.ZD2",
+    "addedAfterLaunch": true,
+    "release": "2024-11",
+    "utility": false
+  },
+  "03000160": {
+    "filename": "RDCBST1U.ZD2",
+    "addedAfterLaunch": true,
+    "release": "2024-11",
+    "utility": false
+  },
+  "03000170": {
+    "filename": "SPTBOOST.ZD2",
+    "addedAfterLaunch": true,
+    "release": "2024-11",
+    "utility": false
+  },
+  "03000180": {
+    "filename": "UPOCTBST.ZD2",
+    "addedAfterLaunch": true,
+    "release": "2024-11",
+    "utility": false
+  },
+  "03000190": {
+    "filename": "OUT_BST.ZD2",
+    "addedAfterLaunch": true,
+    "release": "2024-11",
+    "utility": false
+  },
+  "030001a0": {
+    "filename": "ACOSIM.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "04000011": {
+    "filename": "MS45OSLT.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "04000021": {
+    "filename": "MS1959LT.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "04000031": {
+    "filename": "MS800_LT.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "04000041": {
+    "filename": "FDBMANLT.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "04000051": {
+    "filename": "FD_TWRLT.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "04000061": {
+    "filename": "FDDLXRLT.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "04000071": {
+    "filename": "FDMSTRLT.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "04000081": {
+    "filename": "UK30A_LT.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "04000091": {
+    "filename": "BGMK1_LT.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "040000a1": {
+    "filename": "BGMK3_LT.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "040000b1": {
+    "filename": "RCTORGLT.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "040000c1": {
+    "filename": "XTSBL_LT.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "040000d1": {
+    "filename": "HW100_LT.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "040000e1": {
+    "filename": "ORG120LT.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "040000f1": {
+    "filename": "DZ_DRVLT.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "04000101": {
+    "filename": "MACH30LT.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "04000111": {
+    "filename": "KRMPS_LT.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "04000121": {
+    "filename": "REDLM_LT.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "04000131": {
+    "filename": "VELVT_LT.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "04000141": {
+    "filename": "MUDDY_LT.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "04000151": {
+    "filename": "7HEVN_LT.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "04000161": {
+    "filename": "POLEX_LT.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "06000010": {
+    "filename": "CHORUS.ZD2",
+    "addedAfterLaunch": true,
+    "release": "2024-11",
+    "utility": false
+  },
+  "06000020": {
+    "filename": "CLONECHO.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "06000030": {
+    "filename": "SUPERCHO.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "06000040": {
+    "filename": "CRNTRI5G.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "06000050": {
+    "filename": "ANA234CH.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "06000060": {
+    "filename": "STEREOCH.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "06000070": {
+    "filename": "BENDCHO.ZD2",
+    "addedAfterLaunch": true,
+    "release": "2024-11",
+    "utility": false
+  },
+  "06000080": {
+    "filename": "DETUNE5G.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "06000090": {
+    "filename": "TREMOLO.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "060000a0": {
+    "filename": "PHASER.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "060000b0": {
+    "filename": "STONEPHA.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "060000c0": {
+    "filename": "WRPPHASE.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "060000d0": {
+    "filename": "DUOPHA1U.ZD2",
+    "addedAfterLaunch": true,
+    "release": "2024-11",
+    "utility": false
+  },
+  "060000e0": {
+    "filename": "THEVIBE.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "060000f0": {
+    "filename": "VINFLNG5.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "06000100": {
+    "filename": "KKFLNG1U.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "06000110": {
+    "filename": "VIBRATO.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "06000120": {
+    "filename": "SWELLVIB.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "06000130": {
+    "filename": "OCTAVE5G.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "06000150": {
+    "filename": "PLYOCT.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "06000160": {
+    "filename": "HPS.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "06000171": {
+    "filename": "PLYLIGHT.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "06000180": {
+    "filename": "GEMINOS.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "06000190": {
+    "filename": "RINGMOD.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "060001a0": {
+    "filename": "SLICER.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "07000010": {
+    "filename": "AUTOPAN.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "07000020": {
+    "filename": "LOOPROLL.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "07000030": {
+    "filename": "HOTSPICE.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "07000040": {
+    "filename": "BOMBER.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "07000f00": {
+    "filename": "LINESEL.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": true
+  },
+  "07000ff0": {
+    "filename": "BPM_MDL.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": true
+  },
+  "08000010": {
+    "filename": "DELAY_M.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "08000020": {
+    "filename": "ANDLY_M.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "08000030": {
+    "filename": "TAPECH_M.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "08000040": {
+    "filename": "TPEC3_M.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "08000050": {
+    "filename": "DUADLY_M.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "08000060": {
+    "filename": "SOFTEC5G.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "08000070": {
+    "filename": "SLAPBKD.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "08000080": {
+    "filename": "PP_DLY_M.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "08000090": {
+    "filename": "RVRSDL_M.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "080000a0": {
+    "filename": "MODDLY_M.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "080000a8": {
+    "filename": "MODDLY2.ZD2",
+    "addedAfterLaunch": true,
+    "release": "2026-01",
+    "utility": false
+  },
+  "080000b0": {
+    "filename": "FLTDLY_M.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "080000c0": {
+    "filename": "PITDLY_M.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "080000d0": {
+    "filename": "PHASDL_M.ZD2",
+    "addedAfterLaunch": true,
+    "release": "2024-11",
+    "utility": false
+  },
+  "080000e0": {
+    "filename": "APANDL_M.ZD2",
+    "addedAfterLaunch": true,
+    "release": "2024-11",
+    "utility": false
+  },
+  "080000f0": {
+    "filename": "SLATDL_M.ZD2",
+    "addedAfterLaunch": true,
+    "release": "2024-11",
+    "utility": false
+  },
+  "08000110": {
+    "filename": "HLDDLY_M.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "09000010": {
+    "filename": "ROOM5G.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "09000020": {
+    "filename": "BRGTROOM.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "09000030": {
+    "filename": "SPRING5G.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "09000060": {
+    "filename": "HALL5G.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "09000070": {
+    "filename": "BRGTHALL.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "090000c0": {
+    "filename": "AIR5G.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  },
+  "090000d0": {
+    "filename": "EARLYREF.ZD2",
+    "addedAfterLaunch": false,
+    "release": null,
+    "utility": false
+  }
+}

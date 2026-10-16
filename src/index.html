@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'">
+<title>MS-50G+ Editor</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header><div class="brand"><span class="brand-icon">M<span>+</span></span><div><h1>MS-50G+ <em>EDITOR</em></h1><small>音づくりを、デスクトップで。</small></div><span class="version">v0.7.3</span></div><div class="status"><select id="language" aria-label="Language / 言語"><option value="ja">日本語</option><option value="en">English</option></select><i id="connectionDot"></i><span id="connectionText">オフラインで編集中</span><button id="connectPanel">USB接続</button></div></header>
+<div class="app-layout"><aside>
+<div class="section-label">EFFECT LIBRARY <span id="effectCount"></span></div>
+<input id="search" type="search" placeholder="エフェクトを検索…" aria-label="エフェクトを検索">
+<select id="category" aria-label="カテゴリー"><option value="all">すべてのカテゴリー</option></select>
+<p class="aside-hint">選択中のスロットに追加／置換</p><p id="inventoryStatus" class="aside-hint"></p><button id="scanEffects" data-device>導入一覧を更新</button><div id="effectLibrary"></div>
+<div class="aside-bottom">MS-50G+ 専用 · 非公式エディター<br>設定の作成・保存はオフライン対応</div>
+</aside><main>
+<div class="toolbar"><div><button id="newPatch">＋ 新規</button><button id="emptyPatch">Emptyに戻す</button><button id="open">開く</button><button id="save" class="primary">PCに保存</button><button id="export">.zptc 書き出し</button></div><div><button id="undo" title="Ctrl+Z">↶ 元に戻す</button><button id="redo" title="Ctrl+Y">↷</button></div></div>
+<section class="memory-browser" aria-label="本体のパッチメモリー"><div class="memory-navigation"><div><span class="eyebrow">PATCH MEMORY</span><button id="previousMemory" data-device aria-label="前のパッチメモリー">◀</button><strong id="currentMemory">—</strong><button id="nextMemory" data-device aria-label="次のパッチメモリー">▶</button></div><div><span id="memoryListStatus"></span><button id="showMemoryList" aria-expanded="false" aria-controls="memoryPanel">パッチ一覧</button><button id="refreshMemoryList" data-device>一覧を更新</button></div></div><div id="memoryPanel" hidden><input id="memorySearch" type="search" placeholder="番号・パッチ名で検索…" aria-label="パッチメモリーを検索"><div id="memoryList"></div></div></section>
+<section class="patch-info"><div class="name-field"><label for="patchName">PATCH NAME</label><input id="patchName" maxlength="28" spellcheck="false" aria-label="パッチ名"><small>本体用の名前：半角英数字・記号、28文字まで</small></div><div class="compact-field"><label for="tempo">TEMPO</label><div><input id="tempo" type="number" min="40" max="250"><span>BPM</span></div></div><div class="compact-field"><label for="volume">PATCH LEVEL</label><div><input id="volume" type="number" min="0" max="120"><span>/ 120</span></div></div></section>
+<section class="chain-section"><div class="section-heading"><h2>SIGNAL CHAIN</h2><span id="slotCount">0 / 6 EFFECTS</span></div><div class="chain-flow"><span class="endpoint">IN</span><div id="chain"></div><span class="endpoint">OUT</span></div><div class="chain-tools"><span>スロットを選択 → 左のライブラリーからエフェクトを追加</span><div><button id="moveLeft" aria-label="前に移動">← 前へ</button><button id="moveRight" aria-label="後ろに移動">後ろへ →</button><button id="removeEffect">削除</button></div></div><div class="dsp-panel"><div class="dsp-heading"><span>推定DSP使用量 <small>REFERENCE ESTIMATE</small></span><strong id="dspEstimate"></strong></div><div id="dspMeter" class="dsp-meter" role="progressbar" aria-label="推定DSP使用量" aria-valuemin="0" aria-valuemax="100"><i></i></div><p id="dspHint"></p><div class="dsp-status-row"><span id="dspStatus"></span><div><button id="refreshDsp" data-device>DSP値を本体から更新</button><button id="checkDsp" data-device>本体の状態を確認</button></div></div></div></section>
+<section class="live-bar"><div><strong>音を聴きながら調整</strong><small id="liveHint">OFF時はPC内で編集します。</small></div><button id="liveToggle" data-device aria-label="リアルタイム調整">リアルタイム OFF</button></section>
+<section class="parameter-section"><div class="section-heading"><div><span class="eyebrow" id="selectedSlot">SLOT 01</span><h2 id="effectTitle">エフェクトを追加</h2></div><button id="effectToggle" class="power">ON</button></div><div id="parameters"></div><div id="emptyState"><span>＋</span><h3>ここから、音を組み立てる。</h3><p>左のライブラリーからエフェクトを選んでください。<br>最大6つまで自由に組み合わせられます。</p></div></section>
+<section class="notes-section"><label for="notes">PATCH MEMO <span>PCのプロジェクトに保存されます</span></label><textarea id="notes" placeholder="曲名、ギター、狙った音、調整のヒントなど…" rows="2"></textarea></section>
+
+<section class="pedal-bar"><div><strong>MS-50G+ と連携</strong><small>リアルタイムOFF時は「本体に反映」でまとめて送信します。</small></div><div><button id="readCurrent" data-device>現在のパッチを読む</button><button id="apply" class="accent" data-device>本体に反映</button><button id="writeSlot" data-device>選択中の番号に保存</button></div></section>
+<details class="device-tools"><summary>本体のパッチ管理・バックアップ</summary><div class="device-row"><label>読み取り番号 <input id="memorySlot" type="number" min="1" max="100" value="1"></label><button id="readSlot" data-device>指定番号を読む</button><button id="backup" data-device>全100パッチをバックアップ</button><button id="cancelBackup" hidden>中止</button><span id="backupProgress"></span></div><p>バックアップはPCに保存します。復元はPATCH MEMORYで保存先を選び、ファイルのパッチを開いて保存します。</p><div id="backupBrowser" hidden><select id="backupSelect" aria-label="バックアップ内のパッチ"></select><button id="loadBackupPatch">選択したパッチを開く</button></div></details>
+</main></div>
+<footer><span id="message" role="status" aria-live="polite">準備完了 · 本体なしでパッチを作成できます</span><button id="showHelp">使い方・情報</button></footer>
+<dialog id="connectionDialog"><div class="dialog-heading"><h2>USB MIDI接続</h2><button id="closeConnection" aria-label="閉じる">×</button></div><p>データ転送に対応したUSBケーブルでMS-50G+を接続してください。</p><label>MIDI INPUT<select id="midiInput"></select></label><label>MIDI OUTPUT<select id="midiOutput"></select></label><p id="portHint">「ポートを検索」で接続先を表示します。</p><div class="dialog-actions"><button id="scanPorts">ポートを検索</button><button id="disconnect">切断</button><button id="connect" class="primary">接続する</button></div><p class="fine">接続すると現在の音色を読み込み、リアルタイム調整をONにします。操作したパラメーターは本体に反映され、AUTO SAVEがONなら保存されます。</p></dialog>
+<dialog id="helpDialog">
+<div class="dialog-heading"><h2>MS-50G+ Editor · v0.7.3</h2><button id="closeHelp" aria-label="閉じる">×</button></div>
+<ol>
+<li><strong>接続・調整</strong><br>「USB接続」で本体を選ぶと、現在の音色を読み込み、双方向同期がONになります。パラメーター・ON/OFF・テンポ・音量をPCと本体で同期します。同期中にPCで名前や構成を変えた後は「本体に反映」を押します。</li>
+<li><strong>パッチの選択</strong><br>上のPATCH MEMORYで◀ / ▶ または「パッチ一覧」から選びます。001↔100も循環します。一覧は番号・名前で検索できます。</li>
+<li><strong>保存</strong><br>「PCに保存」は音色とメモをPCのファイルに保存します。本体へは「011 に保存」などの番号付きボタンで、PATCH MEMORYに表示中の番号へ保存します。本体のAUTO SAVEがONなら調整内容も自動保存されます。</li>
+<li><strong>バックアップ・復元</strong><br>「本体のパッチ管理・バックアップ」で全100パッチをPCに保存できます。復元はPATCH MEMORYで保存先を選び、バックアップのパッチを開いて番号付きボタンで保存します。「読み取り番号」はPCへ読み込む番号で、保存先には影響しません。</li>
+</ol>
+<p><strong>Emptyに戻す</strong>：PCのパッチを初期化します。本体へは番号付きの保存ボタンで保存します。</p>
+<p><strong>表示言語</strong>：右上で日本語／Englishを切り替えます。次回起動時も保持します。本体の言語設定は変更しません。</p>
+<p><strong>DSPバー</strong>：エフェクトごとの負荷基準値を合計した推定値です。「DSP値を本体から更新」で取得し直せます。</p>
+<p class="fine">Windows用・MS-50G+専用。音声処理は本体で行います。<br>Ctrl+S 保存 / Ctrl+O 開く / Ctrl+Z 戻す / Ctrl+Y やり直し</p>
+<p class="fine">ZOOM非公式アプリ。データ提供：Thomas Hammer / zoom-explorer、mungewell / zoom-zt2（MIT）。ライセンスの詳細は同梱の THIRD-PARTY-NOTICES.txt を参照してください。</p>
+</dialog>
+<script type="module" src="app.js"></script></body></html>

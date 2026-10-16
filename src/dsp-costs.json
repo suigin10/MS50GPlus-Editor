@@ -1,0 +1,1178 @@
+{
+  "source": "Read-only USB extraction from MS-50G+ firmware 1.40",
+  "retrieved": "2026-10-15",
+  "firmware": "1.40",
+  "method": "ZD2 INFO float32 dspload / 2.5; summed before rounding. Per-effect metadata, not live runtime telemetry. BPM has no readable file and remains unknown.",
+  "effects": {
+    "01000010": {
+      "percent": 5.57599983215332,
+      "dspload": 13.9399995803833,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "Comp",
+      "file": "COMP.ZD2",
+      "sha256": "41dfb850fb9ebfd9b429513d5e3d7ab2f2003b22202092448b9d005128abbde1"
+    },
+    "01000020": {
+      "percent": 7.3,
+      "dspload": 18.25,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "RackComp",
+      "file": "RACKCOMP.ZD2",
+      "sha256": "205d94590baf6a66c13fdeb2101d21fc4202b3146a12f1f44585d9cb6723f3a5"
+    },
+    "01000030": {
+      "percent": 13.11999969482422,
+      "dspload": 32.79999923706055,
+      "version": "1.20",
+      "catalogVersion": "1.20",
+      "name": "GrayComp",
+      "file": "GRAYCOMP.ZD2",
+      "sha256": "e433f9bebc9415878e8e5ec23d43aa796220ca8cb959b4b37f873b740b2e74d8"
+    },
+    "01000040": {
+      "percent": 12.716000366210938,
+      "dspload": 31.790000915527344,
+      "version": "1.10",
+      "catalogVersion": "1.00",
+      "name": "OptComp",
+      "file": "OPTCOMP.ZD2",
+      "sha256": "3b969fbb305f916f9b9a68523973b25b5312fe2aac68052f95e8722daba78f9e"
+    },
+    "01000050": {
+      "percent": 9.851999664306641,
+      "dspload": 24.6299991607666,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "BlackOpt",
+      "file": "BLACKOPT.ZD2",
+      "sha256": "18d802042270082e311abdd43c34476f09f8e95a87eed6a856e7cbaaa889a117"
+    },
+    "01000060": {
+      "percent": 13.452000427246094,
+      "dspload": 33.630001068115234,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "1176 LMT",
+      "file": "LMT1176.ZD2",
+      "sha256": "2016f9c7ffc5236d7baf9a0f114d48925b83496603c40ae59a7975bc7252dafb"
+    },
+    "01000070": {
+      "percent": 4.347999954223633,
+      "dspload": 10.869999885559082,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "ZNR",
+      "file": "ZNR.ZD2",
+      "sha256": "a49b6fdc8f8fa31f16673410db220690ae00f4341eddac6324ccd46e89a2bbfc"
+    },
+    "01000080": {
+      "percent": 6.808000183105468,
+      "dspload": 17.020000457763672,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "NoiseGate",
+      "file": "N_GATE.ZD2",
+      "sha256": "79b2f3ef3a723868fe7417c7a23739fed562fbb2280e18ab25546334341ed904"
+    },
+    "01000090": {
+      "percent": 5.411999893188477,
+      "dspload": 13.529999732971191,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "SlowATTCK",
+      "file": "SLWATK.ZD2",
+      "sha256": "b7433ff45e32431e2c8847d3077769de4930cb7748215af211f43710623ecdaa"
+    },
+    "010000a0": {
+      "percent": 7.136000061035157,
+      "dspload": 17.84000015258789,
+      "version": "1.10",
+      "catalogVersion": "1.00",
+      "name": "MuteSW",
+      "file": "MUTESW.ZD2",
+      "sha256": "5a87bf640f25dc7da903db47fac6a67568c7ed3ef125f2b394b60e2ef49cdce2"
+    },
+    "02000010": {
+      "percent": 7.055999755859375,
+      "dspload": 17.639999389648438,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "AutoWah",
+      "file": "AUTOWAH.ZD2",
+      "sha256": "f6748377e885260b72d84839be6c7d402d8e28a5f4018a45f98a2c65eb734564"
+    },
+    "02000020": {
+      "percent": 7.955999755859375,
+      "dspload": 19.889999389648438,
+      "version": "1.10",
+      "catalogVersion": "1.00",
+      "name": "Reso FLTR",
+      "file": "RESONANC.ZD2",
+      "sha256": "4ecf03e3285bc68559649fe499f1f055fbbb863b0cf94767a52869cd154c366a"
+    },
+    "02000030": {
+      "percent": 8.11999969482422,
+      "dspload": 20.299999237060547,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "LowPassFL",
+      "file": "LOWPASSF.ZD2",
+      "sha256": "223362f3ddd1fe78eec90d3db2d70cfcdd961b03ba40f11406f93284c74bc437"
+    },
+    "02000040": {
+      "percent": 5.904000091552734,
+      "dspload": 14.760000228881836,
+      "version": "1.10",
+      "catalogVersion": "1.00",
+      "name": "CryFilter",
+      "file": "CRY.ZD2",
+      "sha256": "88c7305277741d6b4f51a71f904fc55c9a360de901f65abce010f9ec6483aebf"
+    },
+    "02000050": {
+      "percent": 11.4,
+      "dspload": 28.5,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "EG Filter",
+      "file": "EGFLTR1U.ZD2",
+      "sha256": "d000108f6c5894af32bdce3eddab2212d27d453e0c09852403a586c6a4364375"
+    },
+    "02000060": {
+      "percent": 8.612000274658204,
+      "dspload": 21.530000686645508,
+      "version": "1.10",
+      "catalogVersion": "1.00",
+      "name": "LFO FLTR",
+      "file": "LFO_FLTR.ZD2",
+      "sha256": "445bf4ced1fd0f491372b7f696df33da506fcc269e6862c7d8daba79c1f5dd61"
+    },
+    "02000070": {
+      "percent": 8.531999969482422,
+      "dspload": 21.329999923706055,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "SeqFLTR",
+      "file": "SEQFLTR.ZD2",
+      "sha256": "04f9bae9f4c3633c2c2695e90407d6be64c8a2fa468d0a29c2be4a1ac416a32b"
+    },
+    "02000080": {
+      "percent": 8.204000091552734,
+      "dspload": 20.510000228881836,
+      "version": "1.10",
+      "catalogVersion": "1.00",
+      "name": "RndmFLTR",
+      "file": "RNDMFLTR.ZD2",
+      "sha256": "860acb714f7860dff5d726aa506003d21113ea33bcd9ce5754592a1b3ac5e921"
+    },
+    "02000090": {
+      "percent": 7.955999755859375,
+      "dspload": 19.889999389648438,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "StepFLTR",
+      "file": "STEP5G.ZD2",
+      "sha256": "02e2b1b15db9f2e2bec0cc577f8721edf552df123316828cc4de748dacf6ea3c"
+    },
+    "020000a0": {
+      "percent": 5.904000091552734,
+      "dspload": 14.760000228881836,
+      "version": "1.10",
+      "catalogVersion": "1.00",
+      "name": "Gt GEQ",
+      "file": "GT_GEQ1U.ZD2",
+      "sha256": "49b14669d1857b31f07bb735cc883ff396697cfc1988699d69033564f458938e"
+    },
+    "020000b0": {
+      "percent": 5.740000152587891,
+      "dspload": 14.350000381469727,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "Gt GEQ 7",
+      "file": "GTGEQ75G.ZD2",
+      "sha256": "311f09019e74b7b1c6b224c3787f83ac357556a6156d217dfbc053063a634562"
+    },
+    "020000c0": {
+      "percent": 10.744000244140626,
+      "dspload": 26.860000610351562,
+      "version": "1.10",
+      "catalogVersion": "1.00",
+      "name": "St Gt GEQ",
+      "file": "STGTGE1U.ZD2",
+      "sha256": "d3b7bfbb669541d9f56e407fd0c68bbad63b9a9e99071275a46b2ad4b599ce37"
+    },
+    "020000c8": {
+      "percent": 5.740000152587891,
+      "dspload": 14.350000381469727,
+      "version": "1.00",
+      "catalogVersion": "1.00",
+      "name": "St GtGEQ7",
+      "file": "STGTGE7.ZD2",
+      "sha256": "ccf8ecd2f1523f397d3e9d33fc9e2628e787e1e5af6a010fdf9e3db63b23fda9"
+    },
+    "020000d0": {
+      "percent": 5.084000015258789,
+      "dspload": 12.710000038146973,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "ParaEQ",
+      "file": "PARAEQ5G.ZD2",
+      "sha256": "441ad1a64c81b34a9d583fd953e4b9f393d59cfa256605fc272a46b2dc72ae98"
+    },
+    "020000e0": {
+      "percent": 8.695999908447266,
+      "dspload": 21.739999771118164,
+      "version": "1.10",
+      "catalogVersion": "1.00",
+      "name": "Exciter",
+      "file": "EXCITER.ZD2",
+      "sha256": "2f0f54d933ebca4f43fa2f6f2f1715c8f93d3eedc1771e2d12e1b1386ae4c80d"
+    },
+    "020000f0": {
+      "percent": 4.427999877929688,
+      "dspload": 11.069999694824219,
+      "version": "1.00",
+      "catalogVersion": "1.00",
+      "name": "Low EQ",
+      "file": "LOW_EQ.ZD2",
+      "sha256": "bf38c5d6e49b18616ba517c832f5aa67e415d2a5fd8020dc21def8812265ad58"
+    },
+    "02000100": {
+      "percent": 3.3240001678466795,
+      "dspload": 8.3100004196167,
+      "version": "1.00",
+      "catalogVersion": "1.00",
+      "name": "High EQ",
+      "file": "HIGH_EQ.ZD2",
+      "sha256": "0d374629a7435c31e4b4f13c24ac81c3868aef2bb46cb7e1f9fe18846b8c13cc"
+    },
+    "03000010": {
+      "percent": 12.960000610351562,
+      "dspload": 32.400001525878906,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "EP Drive",
+      "file": "EPSTMP5G.ZD2",
+      "sha256": "9a989c8b560d1d20c699525400e92ab338d4de257fc48369b1ccc56d8e2585bf"
+    },
+    "03000020": {
+      "percent": 9.55199966430664,
+      "dspload": 23.8799991607666,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "RC Drive",
+      "file": "RCBST5G.ZD2",
+      "sha256": "8370d4cec3b7c309826d887ab12d4e952da8efb4e0e6280d4e9724fe9c3cb6ea"
+    },
+    "03000030": {
+      "percent": 9.604000091552734,
+      "dspload": 24.010000228881836,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "TS Drive",
+      "file": "TS_DRIVE.ZD2",
+      "sha256": "3607ee3430ebbce30bc452b27af6f672c4ff6d4cf9035327fe14064fe25d02ab"
+    },
+    "03000040": {
+      "percent": 11.112000274658204,
+      "dspload": 27.780000686645508,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "GoldDrive",
+      "file": "GOLD_DRV.ZD2",
+      "sha256": "8fc262c5129cdf72e0dd30ad0afeb9d859fb7a8072d9a70b69449ac0ff8b812c"
+    },
+    "03000050": {
+      "percent": 12.768000030517578,
+      "dspload": 31.920000076293945,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "SweetDrv",
+      "file": "SWEETDRV.ZD2",
+      "sha256": "fedf980cf2f77f13056824a9c3b3ffb8d54ba6368d1161dd87679510d435bb37"
+    },
+    "03000058": {
+      "percent": 9.876000213623048,
+      "dspload": 24.690000534057617,
+      "version": "1.00",
+      "catalogVersion": "1.00",
+      "name": "Over Drive",
+      "file": "OVRDRV.ZD2",
+      "sha256": "f47a998322593dc84aedb70748040c7966df1e1b974e8898fca4f3b6d745b24a"
+    },
+    "03000060": {
+      "percent": 13.424000549316407,
+      "dspload": 33.560001373291016,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "Zen O.DRV",
+      "file": "ZEN_DRV.ZD2",
+      "sha256": "0d0b443232bbc9aab40c4f2bc3752fc6daf4221fa1c8fd0f548d22f35cfeb019"
+    },
+    "03000070": {
+      "percent": 10.204000091552734,
+      "dspload": 25.510000228881836,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "BG GRID",
+      "file": "BG_GRID.ZD2",
+      "sha256": "d988eb599fcd142cae76783bc3c51cd166a7b0037aac0c6a1da3b5fb92384993"
+    },
+    "03000080": {
+      "percent": 11.012000274658202,
+      "dspload": 27.530000686645508,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "DYN Drive",
+      "file": "DYNDRIVE.ZD2",
+      "sha256": "451c58cceb6dd1e4b3573baf52f7571d82ca66022275484605fad6126d7ddca2"
+    },
+    "03000090": {
+      "percent": 12.716000366210938,
+      "dspload": 31.790000915527344,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "Plus DIST",
+      "file": "DISTPL5G.ZD2",
+      "sha256": "c15394c8afedbec8d1e666251c034404400d579f7402afc7eb543f9457a60ecb"
+    },
+    "030000a0": {
+      "percent": 11.259999847412109,
+      "dspload": 28.149999618530273,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "DIST One",
+      "file": "DIST1_5G.ZD2",
+      "sha256": "61c7ca61141657a2a0df10ec399a1a9e8150fa52f4a5a8d7fba25fb0b50d154a"
+    },
+    "030000b0": {
+      "percent": 12.54800033569336,
+      "dspload": 31.3700008392334,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "SqueakDST",
+      "file": "SQUEAK5G.ZD2",
+      "sha256": "01b8cd35fc3208d4a1a80fcba4b0fccfc007c1d00ef50766b8b7fce892d05078"
+    },
+    "030000c0": {
+      "percent": 8.9,
+      "dspload": 22.25,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "RedCrunch",
+      "file": "REDCR5G.ZD2",
+      "sha256": "3a93c07c9f29ce2e3b9d4e4587b3c086b53431a372bf144765c1290299dd6065"
+    },
+    "030000d0": {
+      "percent": 12.116000366210937,
+      "dspload": 30.290000915527344,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "VioletDST",
+      "file": "VIOLTD5G.ZD2",
+      "sha256": "31422d53def017a8652a72cf3acd87064d1509eb6d5228e338880cb9b5793420"
+    },
+    "030000e0": {
+      "percent": 13.524000549316407,
+      "dspload": 33.810001373291016,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "TB MK1.5",
+      "file": "TB_MK15.ZD2",
+      "sha256": "a0f366b22345aadfce449fd56a503b0bb0d269fa0ef2c8ede9c809d993d488f9"
+    },
+    "030000f0": {
+      "percent": 12.468000030517578,
+      "dspload": 31.170000076293945,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "OctFuzz",
+      "file": "OCTFUZZ.ZD2",
+      "sha256": "95a0f3d14739d77453c8e42dd5b147a1776acd634391f5d5c053f2f41fc6cbf0"
+    },
+    "03000100": {
+      "percent": 11.212000274658203,
+      "dspload": 28.030000686645508,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "NYC Muff",
+      "file": "NYC_MUFF.ZD2",
+      "sha256": "f62b8064b1f3c4bc5172f06bd213141012ea0d87611c25920032536de5ac7084"
+    },
+    "03000110": {
+      "percent": 13.924000549316407,
+      "dspload": 34.810001373291016,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "WaveSHPR",
+      "file": "WAVSHPR.ZD2",
+      "sha256": "c15ae753cd55c400607d68232953dad91b603b5eb485bebfa0deb55f2addb0a8"
+    },
+    "03000120": {
+      "percent": 13.975999450683593,
+      "dspload": 34.939998626708984,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "Razor DRV",
+      "file": "RAZORDRV.ZD2",
+      "sha256": "f48c0e16812c3bbb6fff33d4970ffbd732502dd4112f4ba0c45a8eeeed676596"
+    },
+    "03000130": {
+      "percent": 12.795999908447266,
+      "dspload": 31.989999771118164,
+      "version": "1.10",
+      "catalogVersion": "1.00",
+      "name": "MetalWRLD",
+      "file": "MTLWRLD.ZD2",
+      "sha256": "b15788c00dab46ed4fd6f19ebd09cb317c36f90ead6cd5f9b0d28bd1a8c9b23f"
+    },
+    "03000140": {
+      "percent": 11.863999938964843,
+      "dspload": 29.65999984741211,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "HG THRTTL",
+      "file": "BGTHRTTL.ZD2",
+      "sha256": "b636b5c1323a432bfe0803cc18146fa68c934d5a0e2bf09ae5af3e31bdeaae25"
+    },
+    "03000150": {
+      "percent": 12.668000030517579,
+      "dspload": 31.670000076293945,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "TS+Boost",
+      "file": "TS_BST1U.ZD2",
+      "sha256": "5f2b542abe31eb26f9d90ea9bc1889fd24c62f10a44a5b4c73ef28b342d232b1"
+    },
+    "03000160": {
+      "percent": 11.976000213623047,
+      "dspload": 29.940000534057617,
+      "version": "1.10",
+      "catalogVersion": "1.00",
+      "name": "RedCR+BST",
+      "file": "RDCBST1U.ZD2",
+      "sha256": "f9d50348cbeafb3e8543ef638cc33386262ccfd63b683031660c507036f53552"
+    },
+    "03000170": {
+      "percent": 12.168000030517579,
+      "dspload": 30.420000076293945,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "SpotBoost",
+      "file": "SPTBOOST.ZD2",
+      "sha256": "b7d487dd15099744e3d23bc52e5a9f397ce8104a8d876504a8b3c7dcaa68d50b"
+    },
+    "03000180": {
+      "percent": 8.044000244140625,
+      "dspload": 20.110000610351562,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "UpOctBSTR",
+      "file": "UPOCTBST.ZD2",
+      "sha256": "2d6d99c9ad581bd23117edbc6d4b4f79c883b9a15d46b4b7995c672b531ee2bb"
+    },
+    "03000190": {
+      "percent": 5.331999969482422,
+      "dspload": 13.329999923706055,
+      "version": "1.10",
+      "catalogVersion": "1.00",
+      "name": "OutputBST",
+      "file": "OUT_BST.ZD2",
+      "sha256": "63b17252b3685f365657c14f38ceb11fb8c5c2b01406eddf27cee70b9fd10c3a"
+    },
+    "030001a0": {
+      "percent": 12.795999908447266,
+      "dspload": 31.989999771118164,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "Aco.Sim",
+      "file": "ACOSIM.ZD2",
+      "sha256": "9f99b33832635b34d5dfc0980f09386ec8d7ef5bc711c0ff186a247046527573"
+    },
+    "04000011": {
+      "percent": 32.5760009765625,
+      "dspload": 81.44000244140625,
+      "version": "1.00",
+      "catalogVersion": "1.00",
+      "name": "MS 45os",
+      "file": "MS45OSLT.ZD2",
+      "sha256": "9303fbe22508871ada35b63267ba224912dfe5bc0415f032f7c72b0ff1131a65"
+    },
+    "04000021": {
+      "percent": 31.772000122070313,
+      "dspload": 79.43000030517578,
+      "version": "1.00",
+      "catalogVersion": "1.00",
+      "name": "MS 1959",
+      "file": "MS1959LT.ZD2",
+      "sha256": "2335242b4ad49fb4ca88f53a4df85a32e2e2d8a7d540b801d5edcb3cca6f2f89"
+    },
+    "04000031": {
+      "percent": 33.98399963378906,
+      "dspload": 84.95999908447266,
+      "version": "1.00",
+      "catalogVersion": "1.00",
+      "name": "MS 800",
+      "file": "MS800_LT.ZD2",
+      "sha256": "064d01351e958427bc3133fa0e9e9904aa862695857e6953f8b4cddaded0431d"
+    },
+    "04000041": {
+      "percent": 24.936000061035156,
+      "dspload": 62.34000015258789,
+      "version": "1.00",
+      "catalogVersion": "1.00",
+      "name": "FD B-MAN",
+      "file": "FDBMANLT.ZD2",
+      "sha256": "392103525b278f953862c9a794919409926b8b55a1d942f23fab3312de7e27c6"
+    },
+    "04000051": {
+      "percent": 34.992001342773435,
+      "dspload": 87.4800033569336,
+      "version": "1.00",
+      "catalogVersion": "1.00",
+      "name": "FD TWIN-R",
+      "file": "FD_TWRLT.ZD2",
+      "sha256": "a7facd949e68252ee58f280735b5ecbb0bd3071001ab00c66e81469fa3c37245"
+    },
+    "04000061": {
+      "percent": 31.572000122070314,
+      "dspload": 78.93000030517578,
+      "version": "1.00",
+      "catalogVersion": "1.00",
+      "name": "FD DLX-R",
+      "file": "FDDLXRLT.ZD2",
+      "sha256": "7fcfb27b180f85b9850fa45a2aa8f0c7a6c6267c516d33dcdfcbc0bd12d55439"
+    },
+    "04000071": {
+      "percent": 34.18800048828125,
+      "dspload": 85.47000122070312,
+      "version": "1.00",
+      "catalogVersion": "1.00",
+      "name": "FD MASTER",
+      "file": "FDMSTRLT.ZD2",
+      "sha256": "0682d49daf2ccaabb5c29af2a27b47e9fa636ce29ac7a5bed649488fc61e96e7"
+    },
+    "04000081": {
+      "percent": 32.3760009765625,
+      "dspload": 80.94000244140625,
+      "version": "1.00",
+      "catalogVersion": "1.00",
+      "name": "UK 30A",
+      "file": "UK30A_LT.ZD2",
+      "sha256": "ab39846e96e69dfbbee9f282314086521cd0fa11d66675f0d79fa03b981bc84c"
+    },
+    "04000091": {
+      "percent": 35.795999145507814,
+      "dspload": 89.48999786376953,
+      "version": "1.00",
+      "catalogVersion": "1.00",
+      "name": "BG MARK1",
+      "file": "BGMK1_LT.ZD2",
+      "sha256": "6b2bb60d428c471e2d82fa741f81939c23dd324e06b3adddf89b92045fbe248b"
+    },
+    "040000a1": {
+      "percent": 35.592001342773436,
+      "dspload": 88.9800033569336,
+      "version": "1.00",
+      "catalogVersion": "1.00",
+      "name": "BG MARK3",
+      "file": "BGMK3_LT.ZD2",
+      "sha256": "9549bde5046217d0b93965718122143ce968381f70173ddac2cac23444909f54"
+    },
+    "040000b1": {
+      "percent": 33.379998779296876,
+      "dspload": 83.44999694824219,
+      "version": "1.00",
+      "catalogVersion": "1.00",
+      "name": "RectiDual",
+      "file": "RCTORGLT.ZD2",
+      "sha256": "41020121ee00c6592f1b3739fb30a3e4c207bde2cf22e6171c527984618da7a9"
+    },
+    "040000c1": {
+      "percent": 33.379998779296876,
+      "dspload": 83.44999694824219,
+      "version": "1.00",
+      "catalogVersion": "1.00",
+      "name": "XtasyBlue",
+      "file": "XTSBL_LT.ZD2",
+      "sha256": "4cec300817fd0e3a91236ebcf3e238eecea6cd312a3b99dc938a8dc5568cbc47"
+    },
+    "040000d1": {
+      "percent": 31.895999145507812,
+      "dspload": 79.73999786376953,
+      "version": "1.00",
+      "catalogVersion": "1.00",
+      "name": "HW 100",
+      "file": "HW100_LT.ZD2",
+      "sha256": "3152b1af6ca8074778e90403204ea23adf2619c7cbaf11128526e5d6356e7f34"
+    },
+    "040000e1": {
+      "percent": 33.98399963378906,
+      "dspload": 84.95999908447266,
+      "version": "1.00",
+      "catalogVersion": "1.00",
+      "name": "ORG120",
+      "file": "ORG120LT.ZD2",
+      "sha256": "caa4050c41d080685e185490cbe2160c36db75f3518c50cdd1fc02383a07afbe"
+    },
+    "040000f1": {
+      "percent": 31.37200012207031,
+      "dspload": 78.43000030517578,
+      "version": "1.00",
+      "catalogVersion": "1.00",
+      "name": "DZ DRIVE",
+      "file": "DZ_DRVLT.ZD2",
+      "sha256": "da5722d327a0278a4a40d8da57d74d1aec9e6a4d0344c5bffba9de3d552c918d"
+    },
+    "04000101": {
+      "percent": 33.379998779296876,
+      "dspload": 83.44999694824219,
+      "version": "1.00",
+      "catalogVersion": "1.00",
+      "name": "MATCH30",
+      "file": "MACH30LT.ZD2",
+      "sha256": "15d9fabb8ef7e9b86bc855b3aa8341128e42fe1f5fa0d6dd6eba3a6fc2ae9ac3"
+    },
+    "04000111": {
+      "percent": 31.572000122070314,
+      "dspload": 78.93000030517578,
+      "version": "1.00",
+      "catalogVersion": "1.00",
+      "name": "KRAMPUS",
+      "file": "KRMPS_LT.ZD2",
+      "sha256": "c36a24fea358e1fc6f3975e50a8d2382e6c28b9aeffe0af980746b4645615d13"
+    },
+    "04000121": {
+      "percent": 32.779998779296875,
+      "dspload": 81.94999694824219,
+      "version": "1.00",
+      "catalogVersion": "1.00",
+      "name": "REDLOOM",
+      "file": "REDLM_LT.ZD2",
+      "sha256": "997dd24855b21c275d4f3a6f045e2d0aa41fc376f954fccc6003a3c8454cf1f2"
+    },
+    "04000131": {
+      "percent": 35.19200134277344,
+      "dspload": 87.9800033569336,
+      "version": "1.00",
+      "catalogVersion": "1.00",
+      "name": "VELVET",
+      "file": "VELVT_LT.ZD2",
+      "sha256": "0d36317cdc15563219a2c765d6f61998413db5ba6f29f60413e841ad46bab294"
+    },
+    "04000141": {
+      "percent": 35.783999633789065,
+      "dspload": 89.45999908447266,
+      "version": "1.00",
+      "catalogVersion": "1.00",
+      "name": "MUDDY",
+      "file": "MUDDY_LT.ZD2",
+      "sha256": "6f37d5923a377abf868bfd385ba4f5fa982f6a316edc248dd164e7ce27a966a4"
+    },
+    "04000151": {
+      "percent": 33.98399963378906,
+      "dspload": 84.95999908447266,
+      "version": "1.00",
+      "catalogVersion": "1.00",
+      "name": "7 HEAVEN",
+      "file": "7HEVN_LT.ZD2",
+      "sha256": "1319af11cb7cba876bd38a22e7430c8ea6963a61a2b30c63655f11391c48d6f3"
+    },
+    "04000161": {
+      "percent": 34.78800048828125,
+      "dspload": 86.97000122070312,
+      "version": "1.00",
+      "catalogVersion": "1.00",
+      "name": "POLLEX",
+      "file": "POLEX_LT.ZD2",
+      "sha256": "55e28f0bdbd04cd0b96d578a15770270bd04e2c963afc0dc1ea9cc5b9ab45902"
+    },
+    "06000010": {
+      "percent": 6.7680000305175785,
+      "dspload": 16.920000076293945,
+      "version": "1.10",
+      "catalogVersion": "1.00",
+      "name": "Chorus",
+      "file": "CHORUS.ZD2",
+      "sha256": "1a5dc27162606c35247ac5d00b3ac700465c27a601c7e2150fbe4f71062ee725"
+    },
+    "06000020": {
+      "percent": 10.251999664306641,
+      "dspload": 25.6299991607666,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "CloneCho",
+      "file": "CLONECHO.ZD2",
+      "sha256": "1d48338a6e71301d03a71d091b11e06304b86dbbc67925aecfbb67aa9f6b92ba"
+    },
+    "06000030": {
+      "percent": 8.44800033569336,
+      "dspload": 21.1200008392334,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "ChorusOne",
+      "file": "SUPERCHO.ZD2",
+      "sha256": "e75055a7fecd3a71b6d7ec8fd28ac3e706031c334c2ad14b6492103820613c06"
+    },
+    "06000040": {
+      "percent": 12.519999694824218,
+      "dspload": 31.299999237060547,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "TriChorus",
+      "file": "CRNTRI5G.ZD2",
+      "sha256": "e60cb236bdc82a3d30b47a8d32332e0e1b9c48c6f6e047084e0589732861a2a7"
+    },
+    "06000050": {
+      "percent": 9.516000366210937,
+      "dspload": 23.790000915527344,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "AnalogCho",
+      "file": "ANA234CH.ZD2",
+      "sha256": "e0a4387f93024187af97302e7fcbfb90cef897805f8f71a005110e60533adcd6"
+    },
+    "06000060": {
+      "percent": 7.463999938964844,
+      "dspload": 18.65999984741211,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "StereoCho",
+      "file": "STEREOCH.ZD2",
+      "sha256": "df73c29f28c8e1868c1f0a2e05860459a89e24af217bd5fe4bb9d53f99d28103"
+    },
+    "06000070": {
+      "percent": 8.695999908447266,
+      "dspload": 21.739999771118164,
+      "version": "1.10",
+      "catalogVersion": "1.00",
+      "name": "BendCho",
+      "file": "BENDCHO.ZD2",
+      "sha256": "43147acbb7ba587c60cbbe5de87cdef0affd611209d1e19ec27572167db829fd"
+    },
+    "06000080": {
+      "percent": 5.904000091552734,
+      "dspload": 14.760000228881836,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "Detune",
+      "file": "DETUNE5G.ZD2",
+      "sha256": "ad99f7388183cdc1f98c680c2ac4d457169099febd6042dd2f32a33baf0f8cb0"
+    },
+    "06000090": {
+      "percent": 8.776000213623046,
+      "dspload": 21.940000534057617,
+      "version": "1.00",
+      "catalogVersion": "1.00",
+      "name": "ORG Trem",
+      "file": "TREMOLO.ZD2",
+      "sha256": "f603ac1f456c3e4f8501b439f50f75693544d1085524687128a403eaea74f112"
+    },
+    "060000a0": {
+      "percent": 7.463999938964844,
+      "dspload": 18.65999984741211,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "Phaser",
+      "file": "PHASER.ZD2",
+      "sha256": "6a03e8f1c00b36d5fcb232718156b461a2105968a80a9ed391149ed55926d030"
+    },
+    "060000b0": {
+      "percent": 7.791999816894531,
+      "dspload": 19.479999542236328,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "StonePha",
+      "file": "STONEPHA.ZD2",
+      "sha256": "7ede88e995ae9d4b54df91cfc4985bdf08e8990c1bbe3517da2fac1fd5aa36eb"
+    },
+    "060000c0": {
+      "percent": 9.023999786376953,
+      "dspload": 22.559999465942383,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "WarpPhase",
+      "file": "WRPPHASE.ZD2",
+      "sha256": "c7c1c9ce1e0d385c0218c6c3dfdbbe2bf389b5c8525ddda00d979291cd64858a"
+    },
+    "060000d0": {
+      "percent": 9.844000244140625,
+      "dspload": 24.610000610351562,
+      "version": "1.10",
+      "catalogVersion": "1.00",
+      "name": "Duo Phase",
+      "file": "DUOPHA1U.ZD2",
+      "sha256": "a0a732022f7fc477bb7f2f398a745c2017b2e177968f613d7847d067cadc6e8d"
+    },
+    "060000e0": {
+      "percent": 9.759999847412109,
+      "dspload": 24.399999618530273,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "TheVibe",
+      "file": "THEVIBE.ZD2",
+      "sha256": "4c6dbb6e66c568aecb913464ad3a0510ae87db4b08bdaba5e7d8ca69fec51cbd"
+    },
+    "060000f0": {
+      "percent": 5.904000091552734,
+      "dspload": 14.760000228881836,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "VinFLNGR",
+      "file": "VINFLNG5.ZD2",
+      "sha256": "886c2517aaf7f21164a69d605b53630d9f9cf539b73cb72aa214a4b92d287bb5"
+    },
+    "06000100": {
+      "percent": 6.9720001220703125,
+      "dspload": 17.43000030517578,
+      "version": "1.20",
+      "catalogVersion": "1.20",
+      "name": "Kick FLNG",
+      "file": "KKFLNG1U.ZD2",
+      "sha256": "d26d8ad02f6189e10220462c5bde9f9c9304b9fe57a84e2a94fce16269561d75"
+    },
+    "06000110": {
+      "percent": 7.383999633789062,
+      "dspload": 18.459999084472656,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "Vibrato",
+      "file": "VIBRATO.ZD2",
+      "sha256": "b0f345dbe3721d70d989d00a80a79a5e99deeb443325624b959a335f5a1a2024"
+    },
+    "06000120": {
+      "percent": 9.759999847412109,
+      "dspload": 24.399999618530273,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "SwellVibe",
+      "file": "SWELLVIB.ZD2",
+      "sha256": "8b8749d96339081a8be2d66b531172e6a0d1a66f2f271bb8a210e0b6e3c7dac3"
+    },
+    "06000130": {
+      "percent": 6.727999877929688,
+      "dspload": 16.81999969482422,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "Octaver",
+      "file": "OCTAVE5G.ZD2",
+      "sha256": "97d1a466f99cb83b256084f5a030d89dc2568460a80946cefe7219102131a5b6"
+    },
+    "06000150": {
+      "percent": 13.944000244140625,
+      "dspload": 34.86000061035156,
+      "version": "1.00",
+      "catalogVersion": "1.00",
+      "name": "PolyOct",
+      "file": "PLYOCT.ZD2",
+      "sha256": "85c53985f0dcf8b016cff0c643cda423918d84d7d4ead40e68d46751170dc8c9"
+    },
+    "06000160": {
+      "percent": 6.644000244140625,
+      "dspload": 16.610000610351562,
+      "version": "1.20",
+      "catalogVersion": "1.20",
+      "name": "HPS",
+      "file": "HPS.ZD2",
+      "sha256": "b80bbe880cb91ba4324251605cca1140d64189a04785eaa47aed0db9df19372f"
+    },
+    "06000171": {
+      "percent": 13.944000244140625,
+      "dspload": 34.86000061035156,
+      "version": "1.00",
+      "catalogVersion": "1.00",
+      "name": "PolyShift",
+      "file": "PLYLIGHT.ZD2",
+      "sha256": "3330af0c17726b20a071dba1eab1446ce89510f187a2d8ab544f1cfac6be671b"
+    },
+    "06000180": {
+      "percent": 10.416000366210938,
+      "dspload": 26.040000915527344,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "GEMINOS",
+      "file": "GEMINOS.ZD2",
+      "sha256": "129cfaedd52e223cbab81dcc24363a6e286fa5de5bb86ac6057e2be1ca64fac3"
+    },
+    "06000190": {
+      "percent": 4.756000137329101,
+      "dspload": 11.890000343322754,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "RingMod",
+      "file": "RINGMOD.ZD2",
+      "sha256": "78276c7e21f43fb699f94a5151489f76a204995fa88a807201a14f68aac3065e"
+    },
+    "060001a0": {
+      "percent": 8.283999633789062,
+      "dspload": 20.709999084472656,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "Slicer",
+      "file": "SLICER.ZD2",
+      "sha256": "317b141cdbb13d7020362c1e87421065d642ad86cb96877468ccdff0f5e1e63f"
+    },
+    "07000010": {
+      "percent": 4.1,
+      "dspload": 10.25,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "AutoPan",
+      "file": "AUTOPAN.ZD2",
+      "sha256": "a9cb1219458a0adee8901661918fd791376e993fb4ca94ae601e40437451414c"
+    },
+    "07000020": {
+      "percent": 5.456000137329101,
+      "dspload": 13.640000343322754,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "LoopRoll",
+      "file": "LOOPROLL.ZD2",
+      "sha256": "357a854ba54fac9bd97677c3937240eda76dfacaf6c24f7c737ad3a285a7ebd7"
+    },
+    "07000030": {
+      "percent": 13.775999450683594,
+      "dspload": 34.439998626708984,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "Sitar Sim",
+      "file": "HOTSPICE.ZD2",
+      "sha256": "aca42b8590ba9231771fddfc717f4c6d6e404dc9af19455233edb7d509ef6711"
+    },
+    "07000040": {
+      "percent": 8.44800033569336,
+      "dspload": 21.1200008392334,
+      "version": "1.30",
+      "catalogVersion": "1.30",
+      "name": "Bomber",
+      "file": "BOMBER.ZD2",
+      "sha256": "be6c8bf6d812d9b86bca296a48c97644582c1f407c2e251126534f4e466c559a"
+    },
+    "07000f00": {
+      "percent": 4.1,
+      "dspload": 10.25,
+      "version": "1.00",
+      "catalogVersion": "1.00",
+      "name": "LineSel",
+      "file": "LINESEL.ZD2",
+      "sha256": "8f05dbf88ab776e4ddd73c8e91c1048ba5b2d43b4d472b93a4d7e12becbc40bc"
+    },
+    "08000010": {
+      "percent": 5.495999908447265,
+      "dspload": 13.739999771118164,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "Delay",
+      "file": "DELAY_M.ZD2",
+      "sha256": "e3a6c4a13d67eaf0595fecaa5ea6b9382c373e21dc08f0f9adb07771e24d142b"
+    },
+    "08000020": {
+      "percent": 5.495999908447265,
+      "dspload": 13.739999771118164,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "AnalogDly",
+      "file": "ANDLY_M.ZD2",
+      "sha256": "e2b1f7f1aa66a7b5b59f0599ebb46b6aae9df3f3c0ff1e735897931537583db6"
+    },
+    "08000030": {
+      "percent": 6.9720001220703125,
+      "dspload": 17.43000030517578,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "TapeEcho",
+      "file": "TAPECH_M.ZD2",
+      "sha256": "6b91357ada39f86b42311b106166df3abc68f8dc9fbb0bc9728884862e2343d9"
+    },
+    "08000040": {
+      "percent": 13.572000122070312,
+      "dspload": 33.93000030517578,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "TapeEcho3",
+      "file": "TPEC3_M.ZD2",
+      "sha256": "8484bcb89dc6e124bd3634bddf96ae73dba247f0fd8e4166c5b804a4b133d096"
+    },
+    "08000050": {
+      "percent": 12.168000030517579,
+      "dspload": 30.420000076293945,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "DualDelay",
+      "file": "DUADLY_M.ZD2",
+      "sha256": "31947449f7edfaba0bbda186ca02edefc3dc969c5539c1b4f887ba7a7c04474f"
+    },
+    "08000060": {
+      "percent": 13.572000122070312,
+      "dspload": 33.93000030517578,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "SoftEcho",
+      "file": "SOFTEC5G.ZD2",
+      "sha256": "7b14824442a4b480ef12d142d897a9fe7bb9bb9a8d7577601f1b29288e2d73ee"
+    },
+    "08000070": {
+      "percent": 12.268000030517578,
+      "dspload": 30.670000076293945,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "SlapBackD",
+      "file": "SLAPBKD.ZD2",
+      "sha256": "3e501d1fda75cbbe748a4f248614f37ab34c8799c9be8901be49bd95ff20de9a"
+    },
+    "08000080": {
+      "percent": 5.7,
+      "dspload": 14.25,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "P-P Delay",
+      "file": "PP_DLY_M.ZD2",
+      "sha256": "3fe0de10b83aa5e216e65e63543894a63e0077a5938b7393f70c5ccfbde7f768"
+    },
+    "08000090": {
+      "percent": 5.8240001678466795,
+      "dspload": 14.5600004196167,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "ReverseDL",
+      "file": "RVRSDL_M.ZD2",
+      "sha256": "fd2b0388b75544968b949f6582ebe1a8aa12953d1f39eac0252389ef9f8aef59"
+    },
+    "080000a0": {
+      "percent": 7.627999877929687,
+      "dspload": 19.06999969482422,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "ModDelay",
+      "file": "MODDLY_M.ZD2",
+      "sha256": "9820fb891c152ced0950d622e35c514caabe7da1e102f7dff8c9c4d8effde05d"
+    },
+    "080000a8": {
+      "percent": 5.531999969482422,
+      "dspload": 13.829999923706055,
+      "version": "1.00",
+      "catalogVersion": "1.00",
+      "name": "ModDelay2",
+      "file": "MODDLY2.ZD2",
+      "sha256": "e548b40bfe57ede96f40ebe735d380321eb43338036e663c6537a22c55500f74"
+    },
+    "080000b0": {
+      "percent": 8.368000030517578,
+      "dspload": 20.920000076293945,
+      "version": "1.20",
+      "catalogVersion": "1.20",
+      "name": "FilterDly",
+      "file": "FLTDLY_M.ZD2",
+      "sha256": "4944efa3ee4889beccbc3cb9f2959e5115dfbc8e5c72286790c768c48cb76f8b"
+    },
+    "080000c0": {
+      "percent": 8.612000274658204,
+      "dspload": 21.530000686645508,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "Pitch DLY",
+      "file": "PITDLY_M.ZD2",
+      "sha256": "39b117973f697099da018ff55b7b25823f07defeb5fd4b0178cb33f04b846c93"
+    },
+    "080000d0": {
+      "percent": 11.891999816894531,
+      "dspload": 29.729999542236328,
+      "version": "1.10",
+      "catalogVersion": "1.00",
+      "name": "PhaseDly",
+      "file": "PHASDL_M.ZD2",
+      "sha256": "efd364f2f84c5f8ce4b5d1e853eac7136630d2476c26654280592a257eebf1df"
+    },
+    "080000e0": {
+      "percent": 10.172000122070312,
+      "dspload": 25.43000030517578,
+      "version": "1.10",
+      "catalogVersion": "1.00",
+      "name": "A-Pan DLY",
+      "file": "APANDL_M.ZD2",
+      "sha256": "5c948b334115cc5a64528c9f22404c070bc478803eefc2e8f303f74bbc6f43d1"
+    },
+    "080000f0": {
+      "percent": 12.819999694824219,
+      "dspload": 32.04999923706055,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "SlwAtkDly",
+      "file": "SLATDL_M.ZD2",
+      "sha256": "f8abeb442fba71b6762670f00bc193a470c5b0682eaa5cb0bfd78425043511c5"
+    },
+    "08000110": {
+      "percent": 5.8240001678466795,
+      "dspload": 14.5600004196167,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "HoldDelay",
+      "file": "HLDDLY_M.ZD2",
+      "sha256": "bbdb03f3367cbe0332f9a4813b1188d82cb2332282bd1a4ca735ad431b54d06b"
+    },
+    "09000010": {
+      "percent": 9.844000244140625,
+      "dspload": 24.610000610351562,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "RoomREV",
+      "file": "ROOM5G.ZD2",
+      "sha256": "2c08aa5798d1f8f983bee2720aa6af686df99479edf2c53cae566c8d6d6cfba2"
+    },
+    "09000020": {
+      "percent": 9.844000244140625,
+      "dspload": 24.610000610351562,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "BrghtRoom",
+      "file": "BRGTROOM.ZD2",
+      "sha256": "237429301d48bb50d9ff581764a57e0771e601642f83cf62bcecb803a1d0c9b6"
+    },
+    "09000030": {
+      "percent": 9.268000030517578,
+      "dspload": 23.170000076293945,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "SpringREV",
+      "file": "SPRING5G.ZD2",
+      "sha256": "e7d57545ef14efb60dd8ae329b0a3cb4146ed29039aa429a68ed9c13fe80c20e"
+    },
+    "09000060": {
+      "percent": 10.827999877929688,
+      "dspload": 27.06999969482422,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "Hall REV",
+      "file": "HALL5G.ZD2",
+      "sha256": "3175759a4aae05a7e8d055e85504876032f1774d6586012ab17ffc527a01c8cb"
+    },
+    "09000070": {
+      "percent": 10.827999877929688,
+      "dspload": 27.06999969482422,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "BrghtHall",
+      "file": "BRGTHALL.ZD2",
+      "sha256": "fa772e815fd0f88a604e71852eb2a413264b3b9b35b803222f9c74998dcd783a"
+    },
+    "090000c0": {
+      "percent": 6.4,
+      "dspload": 16,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "AirReverb",
+      "file": "AIR5G.ZD2",
+      "sha256": "8e89a8dd502cde9a3a0a155c0a1a2d40dfbe462640ea96b71e8e60a38366fb66"
+    },
+    "090000d0": {
+      "percent": 10.00800018310547,
+      "dspload": 25.020000457763672,
+      "version": "1.10",
+      "catalogVersion": "1.10",
+      "name": "EarlyRef",
+      "file": "EARLYREF.ZD2",
+      "sha256": "060b392112dba068d4914884a97b7e76d06391c978fada088b516412ba96973c"
+    }
+  }
+}

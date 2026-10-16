@@ -21,4 +21,3 @@ tests/core.test.cjs
 *.zt2
 .DS_Store
 Thumbs.db
-

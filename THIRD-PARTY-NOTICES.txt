@@ -1,0 +1,39 @@
+MS50GPlus-Editor — Third-party notices
+
+Project code and documentation: Copyright (c) 2026 suigin10, MIT License.
+See LICENSE. Third-party components retain their own notices and licenses.
+
+This app incorporates MIT-licensed helpers from zoom-explorer:
+  vendor/ZoomPatch.ts, vendor/tools.ts, vendor/Logger.ts,
+  vendor/ZoomDriverDiagnostics.ts
+The library in src/effects.json incorporates value labels and parameter
+mappings from zoom-effect-mappings-ms50gp.json, ms70cdrp.json, g2four.json
+and ms200dp.json, supplemented with MS-50G+ device metadata.
+Source: https://github.com/thammer/zoom-explorer (main, retrieved 2026-10-15)
+Copyright (c) 2024-2025 Thomas Hammer
+License: MIT; full text in LICENSE-zoom-explorer.txt (vendor/LICENSE in source).
+
+Electron is distributed with LICENSE-electron.txt and LICENSES.chromium.html.
+The portable package retains the runtime's notices and licenses.
+esbuild is used at build time only (MIT).
+
+The original user interface, application shell, project format, validation and
+connection controller are licensed under the project's MIT License. The product is
+unofficial and is not affiliated with or endorsed by ZOOM CORPORATION.
+
+DSP reference values (src/dsp-costs.json) derived from:
+https://github.com/mungewell/zoom-zt2/blob/master/zoom_fx_ms-plus/ms-50gp/effects_sort.txt
+Copyright (c) 2019 mungewell, MIT License.
+Full license: LICENSE-zoom-zt2.txt / vendor/LICENSE-zoom-zt2.txt.
+Only reference metadata is included; no ZD2 effect binaries are distributed.
+The sum is an uncalibrated estimate, not live DSP telemetry or a guaranteed capacity limit.
+
+Effect parameter and DSP metadata:
+Added MS-50G+ IDs, parameter limits/defaults, filenames and DSP metadata were
+read from MS-50G+ firmware 1.40, without writing patch data.
+Display-value lists from the MIT mappings above are reused only for matching
+parameters, with the actual MS-50G+ ranges/defaults verified independently.
+DSP values now use the unrounded float32 INFO metadata read from this pedal.
+The INFO-to-percent conversion follows zoom-zt2 (dspload / 2.5).
+Only factual parameter metadata is distributed. ZD2 executable binaries,
+icons, audio data and the manufacturer's descriptive text are not included.

@@ -1,0 +1,1317 @@
+[
+  {
+    "id": "080000e0",
+    "filename": "APANDL_M.ZD2",
+    "version": "1.10",
+    "parameters": [
+      {
+        "name": "Time",
+        "max": 712,
+        "default": 222,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Mode",
+        "max": 2,
+        "default": 0,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Repeat",
+        "max": 100,
+        "default": 87,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Mix",
+        "max": 100,
+        "default": 53,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Link",
+        "max": 1,
+        "default": 1,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Cycle",
+        "max": 52,
+        "default": 26,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Width",
+        "max": 50,
+        "default": 50,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Clip",
+        "max": 10,
+        "default": 0,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Dummy",
+        "max": 1,
+        "default": 0,
+        "display": 0,
+        "hidden": true
+      },
+      {
+        "name": "Dummy",
+        "max": 1,
+        "default": 0,
+        "display": 0,
+        "hidden": true
+      }
+    ],
+    "sha256": "5c948b334115cc5a64528c9f22404c070bc478803eefc2e8f303f74bbc6f43d1"
+  },
+  {
+    "id": "06000070",
+    "filename": "BENDCHO.ZD2",
+    "version": "1.10",
+    "parameters": [
+      {
+        "name": "Mode",
+        "max": 1,
+        "default": 0,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Depth",
+        "max": 100,
+        "default": 40,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Time",
+        "max": 50,
+        "default": 50,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "BAL",
+        "max": 100,
+        "default": 100,
+        "display": 0,
+        "hidden": false
+      }
+    ],
+    "sha256": "43147acbb7ba587c60cbbe5de87cdef0affd611209d1e19ec27572167db829fd"
+  },
+  {
+    "id": "03000070",
+    "filename": "BG_GRID.ZD2",
+    "version": "1.10",
+    "parameters": [
+      {
+        "name": "Gain",
+        "max": 100,
+        "default": 68,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Tone",
+        "max": 100,
+        "default": 50,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "BAL",
+        "max": 100,
+        "default": 100,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "VOL",
+        "max": 100,
+        "default": 74,
+        "display": 0,
+        "hidden": false
+      }
+    ],
+    "sha256": "d988eb599fcd142cae76783bc3c51cd166a7b0037aac0c6a1da3b5fb92384993"
+  },
+  {
+    "id": "06000010",
+    "filename": "CHORUS.ZD2",
+    "version": "1.10",
+    "parameters": [
+      {
+        "name": "Depth",
+        "max": 100,
+        "default": 40,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Rate",
+        "max": 49,
+        "default": 24,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Tone",
+        "max": 10,
+        "default": 7,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Mix",
+        "max": 100,
+        "default": 50,
+        "display": 0,
+        "hidden": false
+      }
+    ],
+    "sha256": "1a5dc27162606c35247ac5d00b3ac700465c27a601c7e2150fbe4f71062ee725"
+  },
+  {
+    "id": "02000040",
+    "filename": "CRY.ZD2",
+    "version": "1.10",
+    "parameters": [
+      {
+        "name": "Range",
+        "max": 9,
+        "default": 6,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "RESO",
+        "max": 10,
+        "default": 8,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Sense",
+        "max": 19,
+        "default": 16,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "BAL",
+        "max": 100,
+        "default": 100,
+        "display": 0,
+        "hidden": false
+      }
+    ],
+    "sha256": "88c7305277741d6b4f51a71f904fc55c9a360de901f65abce010f9ec6483aebf"
+  },
+  {
+    "id": "060000d0",
+    "filename": "DUOPHA1U.ZD2",
+    "version": "1.10",
+    "parameters": [
+      {
+        "name": "Depth A",
+        "max": 99,
+        "default": 62,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Rate A",
+        "max": 77,
+        "default": 5,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "RESO A",
+        "max": 10,
+        "default": 6,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Link",
+        "max": 2,
+        "default": 0,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Depth B",
+        "max": 99,
+        "default": 36,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Rate B",
+        "max": 51,
+        "default": 46,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "RESO B",
+        "max": 10,
+        "default": 0,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "VOL",
+        "max": 100,
+        "default": 80,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Dummy",
+        "max": 1,
+        "default": 0,
+        "display": 0,
+        "hidden": true
+      }
+    ],
+    "sha256": "a0a732022f7fc477bb7f2f398a745c2017b2e177968f613d7847d067cadc6e8d"
+  },
+  {
+    "id": "020000e0",
+    "filename": "EXCITER.ZD2",
+    "version": "1.10",
+    "parameters": [
+      {
+        "name": "Bass",
+        "max": 100,
+        "default": 0,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Treble",
+        "max": 100,
+        "default": 0,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "VOL",
+        "max": 100,
+        "default": 80,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "ON/OFF",
+        "max": 1,
+        "default": 0,
+        "display": 0,
+        "hidden": false
+      }
+    ],
+    "sha256": "2f0f54d933ebca4f43fa2f6f2f1715c8f93d3eedc1771e2d12e1b1386ae4c80d"
+  },
+  {
+    "id": "020000a0",
+    "filename": "GT_GEQ1U.ZD2",
+    "version": "1.10",
+    "parameters": [
+      {
+        "name": "160Hz",
+        "max": 48,
+        "default": 24,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "400Hz",
+        "max": 48,
+        "default": 24,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "800Hz",
+        "max": 48,
+        "default": 24,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "3.2kHz",
+        "max": 48,
+        "default": 24,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "6.4kHz",
+        "max": 48,
+        "default": 24,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "12kHz",
+        "max": 48,
+        "default": 24,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "VOL",
+        "max": 100,
+        "default": 80,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Dummy",
+        "max": 1,
+        "default": 0,
+        "display": 0,
+        "hidden": true
+      },
+      {
+        "name": "Dummy",
+        "max": 1,
+        "default": 0,
+        "display": 0,
+        "hidden": true
+      }
+    ],
+    "sha256": "49b14669d1857b31f07bb735cc883ff396697cfc1988699d69033564f458938e"
+  },
+  {
+    "id": "02000100",
+    "filename": "HIGH_EQ.ZD2",
+    "version": "1.00",
+    "parameters": [
+      {
+        "name": "Type",
+        "max": 1,
+        "default": 0,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "FREQ",
+        "max": 55,
+        "default": 16,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Gain",
+        "max": 48,
+        "default": 36,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "VOL",
+        "max": 100,
+        "default": 80,
+        "display": 0,
+        "hidden": false
+      }
+    ],
+    "sha256": "0d374629a7435c31e4b4f13c24ac81c3868aef2bb46cb7e1f9fe18846b8c13cc"
+  },
+  {
+    "id": "02000060",
+    "filename": "LFO_FLTR.ZD2",
+    "version": "1.10",
+    "parameters": [
+      {
+        "name": "Depth",
+        "max": 100,
+        "default": 100,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Rate",
+        "max": 77,
+        "default": 57,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "RESO",
+        "max": 10,
+        "default": 8,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Wave",
+        "max": 3,
+        "default": 0,
+        "display": 0,
+        "hidden": false
+      }
+    ],
+    "sha256": "445bf4ced1fd0f491372b7f696df33da506fcc269e6862c7d8daba79c1f5dd61"
+  },
+  {
+    "id": "020000f0",
+    "filename": "LOW_EQ.ZD2",
+    "version": "1.00",
+    "parameters": [
+      {
+        "name": "Type",
+        "max": 1,
+        "default": 0,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "FREQ",
+        "max": 55,
+        "default": 10,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Gain",
+        "max": 48,
+        "default": 36,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "VOL",
+        "max": 100,
+        "default": 80,
+        "display": 0,
+        "hidden": false
+      }
+    ],
+    "sha256": "bf38c5d6e49b18616ba517c832f5aa67e415d2a5fd8020dc21def8812265ad58"
+  },
+  {
+    "id": "080000a8",
+    "filename": "MODDLY2.ZD2",
+    "version": "1.00",
+    "parameters": [
+      {
+        "name": "Time",
+        "max": 754,
+        "default": 746,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Mode",
+        "max": 2,
+        "default": 2,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Repeat",
+        "max": 100,
+        "default": 50,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Mix",
+        "max": 100,
+        "default": 45,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Depth",
+        "max": 100,
+        "default": 50,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Rate",
+        "max": 49,
+        "default": 16,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "VOL",
+        "max": 100,
+        "default": 80,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Tail",
+        "max": 1,
+        "default": 0,
+        "display": 0,
+        "hidden": false
+      }
+    ],
+    "sha256": "e548b40bfe57ede96f40ebe735d380321eb43338036e663c6537a22c55500f74"
+  },
+  {
+    "id": "03000130",
+    "filename": "MTLWRLD.ZD2",
+    "version": "1.10",
+    "parameters": [
+      {
+        "name": "Gain",
+        "max": 100,
+        "default": 60,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Bass",
+        "max": 100,
+        "default": 50,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Treble",
+        "max": 100,
+        "default": 50,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "VOL",
+        "max": 100,
+        "default": 80,
+        "display": 0,
+        "hidden": false
+      }
+    ],
+    "sha256": "b15788c00dab46ed4fd6f19ebd09cb317c36f90ead6cd5f9b0d28bd1a8c9b23f"
+  },
+  {
+    "id": "010000a0",
+    "filename": "MUTESW.ZD2",
+    "version": "1.10",
+    "parameters": [
+      {
+        "name": "Edge",
+        "max": 100,
+        "default": 13,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Speed",
+        "max": 100,
+        "default": 100,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Invert",
+        "max": 1,
+        "default": 0,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "ON/OFF",
+        "max": 2,
+        "default": 1,
+        "display": 0,
+        "hidden": false
+      }
+    ],
+    "sha256": "5a87bf640f25dc7da903db47fac6a67568c7ed3ef125f2b394b60e2ef49cdce2"
+  },
+  {
+    "id": "01000040",
+    "filename": "OPTCOMP.ZD2",
+    "version": "1.10",
+    "parameters": [
+      {
+        "name": "Drive",
+        "max": 10,
+        "default": 7,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Lo",
+        "max": 100,
+        "default": 50,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Hi",
+        "max": 100,
+        "default": 50,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "VOL",
+        "max": 100,
+        "default": 60,
+        "display": 0,
+        "hidden": false
+      }
+    ],
+    "sha256": "3b969fbb305f916f9b9a68523973b25b5312fe2aac68052f95e8722daba78f9e"
+  },
+  {
+    "id": "03000190",
+    "filename": "OUT_BST.ZD2",
+    "version": "1.10",
+    "parameters": [
+      {
+        "name": "Range",
+        "max": 9,
+        "default": 4,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Boost",
+        "max": 100,
+        "default": 30,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Tone",
+        "max": 100,
+        "default": 50,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "VOL",
+        "max": 100,
+        "default": 80,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "",
+        "max": 0,
+        "default": 0,
+        "display": 0,
+        "hidden": true
+      },
+      {
+        "name": "",
+        "max": 0,
+        "default": 0,
+        "display": 0,
+        "hidden": true
+      }
+    ],
+    "sha256": "63b17252b3685f365657c14f38ceb11fb8c5c2b01406eddf27cee70b9fd10c3a"
+  },
+  {
+    "id": "03000058",
+    "filename": "OVRDRV.ZD2",
+    "version": "1.00",
+    "parameters": [
+      {
+        "name": "Gain",
+        "max": 100,
+        "default": 60,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Bass",
+        "max": 100,
+        "default": 50,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Treble",
+        "max": 100,
+        "default": 50,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "VOL",
+        "max": 100,
+        "default": 87,
+        "display": 0,
+        "hidden": false
+      }
+    ],
+    "sha256": "f47a998322593dc84aedb70748040c7966df1e1b974e8898fca4f3b6d745b24a"
+  },
+  {
+    "id": "080000d0",
+    "filename": "PHASDL_M.ZD2",
+    "version": "1.10",
+    "parameters": [
+      {
+        "name": "Time",
+        "max": 762,
+        "default": 746,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Mode",
+        "max": 2,
+        "default": 2,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Repeat",
+        "max": 100,
+        "default": 24,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Mix",
+        "max": 100,
+        "default": 56,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Color",
+        "max": 3,
+        "default": 2,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Depth",
+        "max": 100,
+        "default": 100,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Rate",
+        "max": 77,
+        "default": 59,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Reso",
+        "max": 100,
+        "default": 48,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Dummy",
+        "max": 1,
+        "default": 0,
+        "display": 0,
+        "hidden": true
+      }
+    ],
+    "sha256": "efd364f2f84c5f8ce4b5d1e853eac7136630d2476c26654280592a257eebf1df"
+  },
+  {
+    "id": "03000160",
+    "filename": "RDCBST1U.ZD2",
+    "version": "1.10",
+    "parameters": [
+      {
+        "name": "Gain",
+        "max": 100,
+        "default": 68,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Tone",
+        "max": 100,
+        "default": 50,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "PRESENC",
+        "max": 100,
+        "default": 52,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "VOL",
+        "max": 100,
+        "default": 61,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Comp",
+        "max": 2,
+        "default": 1,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "LO/HI",
+        "max": 1,
+        "default": 1,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Boost",
+        "max": 100,
+        "default": 42,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Order",
+        "max": 1,
+        "default": 1,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Dummy",
+        "max": 1,
+        "default": 0,
+        "display": 0,
+        "hidden": true
+      }
+    ],
+    "sha256": "f9d50348cbeafb3e8543ef638cc33386262ccfd63b683031660c507036f53552"
+  },
+  {
+    "id": "02000020",
+    "filename": "RESONANC.ZD2",
+    "version": "1.10",
+    "parameters": [
+      {
+        "name": "Mode",
+        "max": 1,
+        "default": 1,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Sense",
+        "max": 9,
+        "default": 4,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "RESO",
+        "max": 10,
+        "default": 8,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "VOL",
+        "max": 100,
+        "default": 80,
+        "display": 0,
+        "hidden": false
+      }
+    ],
+    "sha256": "4ecf03e3285bc68559649fe499f1f055fbbb863b0cf94767a52869cd154c366a"
+  },
+  {
+    "id": "02000080",
+    "filename": "RNDMFLTR.ZD2",
+    "version": "1.10",
+    "parameters": [
+      {
+        "name": "Type",
+        "max": 2,
+        "default": 2,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Speed",
+        "max": 77,
+        "default": 34,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "BAL",
+        "max": 100,
+        "default": 90,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "VOL",
+        "max": 100,
+        "default": 80,
+        "display": 0,
+        "hidden": false
+      }
+    ],
+    "sha256": "860acb714f7860dff5d726aa506003d21113ea33bcd9ce5754592a1b3ac5e921"
+  },
+  {
+    "id": "080000f0",
+    "filename": "SLATDL_M.ZD2",
+    "version": "1.10",
+    "parameters": [
+      {
+        "name": "Swell",
+        "max": 49,
+        "default": 24,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Time",
+        "max": 744,
+        "default": 489,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Mode",
+        "max": 2,
+        "default": 0,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Repeat",
+        "max": 100,
+        "default": 71,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Mix",
+        "max": 100,
+        "default": 64,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Dummy",
+        "max": 1,
+        "default": 0,
+        "display": 0,
+        "hidden": true
+      }
+    ],
+    "sha256": "f8abeb442fba71b6762670f00bc193a470c5b0682eaa5cb0bfd78425043511c5"
+  },
+  {
+    "id": "03000170",
+    "filename": "SPTBOOST.ZD2",
+    "version": "1.10",
+    "parameters": [
+      {
+        "name": "Boost",
+        "max": 100,
+        "default": 35,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Bass",
+        "max": 20,
+        "default": 10,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Treble",
+        "max": 20,
+        "default": 8,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "ON/OFF",
+        "max": 1,
+        "default": 1,
+        "display": 0,
+        "hidden": false
+      }
+    ],
+    "sha256": "b7d487dd15099744e3d23bc52e5a9f397ce8104a8d876504a8b3c7dcaa68d50b"
+  },
+  {
+    "id": "020000c0",
+    "filename": "STGTGE1U.ZD2",
+    "version": "1.10",
+    "parameters": [
+      {
+        "name": "160Hz",
+        "max": 48,
+        "default": 24,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "400Hz",
+        "max": 48,
+        "default": 24,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "800Hz",
+        "max": 48,
+        "default": 24,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "3.2kHz",
+        "max": 48,
+        "default": 24,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "6.4kHz",
+        "max": 48,
+        "default": 24,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "12kHz",
+        "max": 48,
+        "default": 24,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "VOL",
+        "max": 100,
+        "default": 80,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Dummy",
+        "max": 1,
+        "default": 0,
+        "display": 0,
+        "hidden": true
+      },
+      {
+        "name": "Dummy",
+        "max": 1,
+        "default": 0,
+        "display": 0,
+        "hidden": true
+      }
+    ],
+    "sha256": "d3b7bfbb669541d9f56e407fd0c68bbad63b9a9e99071275a46b2ad4b599ce37"
+  },
+  {
+    "id": "020000c8",
+    "filename": "STGTGE7.ZD2",
+    "version": "1.00",
+    "parameters": [
+      {
+        "name": "100Hz",
+        "max": 48,
+        "default": 24,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "200Hz",
+        "max": 48,
+        "default": 24,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "400Hz",
+        "max": 48,
+        "default": 24,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "800Hz",
+        "max": 48,
+        "default": 24,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "1.6kHz",
+        "max": 48,
+        "default": 24,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "3.2kHz",
+        "max": 48,
+        "default": 24,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "6.4kHz",
+        "max": 48,
+        "default": 24,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "VOL",
+        "max": 100,
+        "default": 80,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Dummy",
+        "max": 1,
+        "default": 0,
+        "display": 0,
+        "hidden": true
+      }
+    ],
+    "sha256": "ccf8ecd2f1523f397d3e9d33fc9e2628e787e1e5af6a010fdf9e3db63b23fda9"
+  },
+  {
+    "id": "03000150",
+    "filename": "TS_BST1U.ZD2",
+    "version": "1.10",
+    "parameters": [
+      {
+        "name": "Gain",
+        "max": 100,
+        "default": 34,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Tone",
+        "max": 100,
+        "default": 50,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "VOL",
+        "max": 100,
+        "default": 75,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Comp",
+        "max": 2,
+        "default": 1,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Boost",
+        "max": 100,
+        "default": 60,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Bass",
+        "max": 100,
+        "default": 40,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Treble",
+        "max": 100,
+        "default": 50,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Order",
+        "max": 1,
+        "default": 0,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Dummy",
+        "max": 1,
+        "default": 0,
+        "display": 0,
+        "hidden": true
+      }
+    ],
+    "sha256": "5f2b542abe31eb26f9d90ea9bc1889fd24c62f10a44a5b4c73ef28b342d232b1"
+  },
+  {
+    "id": "03000180",
+    "filename": "UPOCTBST.ZD2",
+    "version": "1.10",
+    "parameters": [
+      {
+        "name": "UpOct",
+        "max": 100,
+        "default": 65,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "DryMx",
+        "max": 100,
+        "default": 47,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "Bottom",
+        "max": 100,
+        "default": 75,
+        "display": 0,
+        "hidden": false
+      },
+      {
+        "name": "PRESENC",
+        "max": 100,
+        "default": 70,
+        "display": 0,
+        "hidden": false
+      }
+    ],
+    "sha256": "2d6d99c9ad581bd23117edbc6d4b4f79c883b9a15d46b4b7995c672b531ee2bb"
+  }
+]

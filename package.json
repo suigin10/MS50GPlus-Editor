@@ -1,0 +1,24 @@
+{
+  "name": "ms50g-plus-editor",
+  "productName": "MS-50G+ Editor",
+  "version": "0.7.3",
+  "private": true,
+  "description": "Portable Windows patch editor for ZOOM MS-50G+ with two-way MIDI sync",
+  "main": "main.cjs",
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "start": "npm run build && electron .",
+    "test": "node scripts/test.cjs",
+    "smoke": "electron . --smoke-test --no-sandbox",
+    "package": "npm run build && node scripts/package.cjs"
+  },
+  "devDependencies": {
+    "electron": "^42.0.0",
+    "esbuild": "^0.25.12"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suigin10/MS50GPlus-Editor.git"
+  }
+}

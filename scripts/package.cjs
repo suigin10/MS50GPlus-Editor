@@ -1,0 +1,16 @@
+const fs = require('node:fs');
+const path = require('node:path');
+const dest = process.env.MS50G_OUTPUT || path.resolve(`release/MS50GPlus-Editor-v${require('../package.json').version}-win-x64`);
+fs.mkdirSync(dest, { recursive: true });
+fs.cpSync('node_modules/electron/dist', dest, { recursive: true });
+if (fs.existsSync(path.join(dest, 'electron.exe'))) fs.renameSync(path.join(dest, 'electron.exe'), path.join(dest, 'MS50GPlus-Editor.exe'));
+const appDir = path.join(dest, 'resources/app'); fs.mkdirSync(appDir, { recursive: true });
+for (const file of ['package.json', 'main.cjs', 'preload.cjs']) fs.copyFileSync(file, path.join(appDir, file));
+fs.cpSync('dist', path.join(appDir, 'dist'), { recursive: true });
+fs.copyFileSync(path.join(dest, 'LICENSE'), path.join(dest, 'LICENSE-electron.txt'));
+for (const file of ['README-JA.txt', 'README-EN.txt', 'README.md', 'README.en.md', 'CONTRIBUTING.md', 'CHANGELOG.md', 'LICENSE', 'THIRD-PARTY-NOTICES.txt']) fs.copyFileSync(file, path.join(dest, file));
+fs.cpSync('docs', path.join(dest, 'docs'), { recursive: true });
+fs.cpSync('vendor', path.join(dest, 'vendor'), { recursive: true, filter: source => fs.statSync(source).isDirectory() || path.basename(source).startsWith('LICENSE') });
+fs.copyFileSync('vendor/LICENSE', path.join(dest, 'LICENSE-zoom-explorer.txt'));
+fs.copyFileSync('vendor/LICENSE-zoom-zt2.txt', path.join(dest, 'LICENSE-zoom-zt2.txt'));
+console.log(dest);
